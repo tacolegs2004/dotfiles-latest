@@ -12,6 +12,7 @@ stow --target=$HOME nvim
 stow --target=$HOME starship
 stow --target=$HOME tmux
 stow --target=$HOME zsh
+cd scripts/pokemon-colorscripts && chmod u+x install.sh && ./install.sh
 
 # run install scripts, if any inside packages
 # for f in */install.sh; do

@@ -179,14 +179,14 @@ export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN
 # eval "$(starship init zsh)"
 
 # eval "$(oh-my-posh init zsh)"
-#
+
 # if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 #   eval "$(oh-my-posh init zsh)"
 # fi
 #
 eval "$(zoxide init --cmd cd zsh)"
 
-fastfetch
+# fastfetch
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
@@ -196,5 +196,4 @@ alias ls="eza --icons=always"
 
 # precmd() { mommy -1 -s $? }
 
-source /Users/tyler/code/projects/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+pokemon-colorscripts -r --no-title

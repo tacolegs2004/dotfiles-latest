@@ -1,8 +1,9 @@
 theme = catppuccin-mocha
-font-family = CaskaydiaCove Nerd Font
+font-family = Fira Code
 font-feature = -calt
-font-size = 20
+window-decoration = false
 auto-update-channel = tip
+maximize = true
 window-padding-y = 14
 window-padding-x = 16
 keybind = super+r=reload_config
